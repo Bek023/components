@@ -25,17 +25,3 @@ dist-ssr
 
 !src/components
 public
-App.css
-assets
-App.tsx
-index.css
-main.tsx
-vite-env.d.ts
-eslint.config.js
-index.html
-package-lock.json
-package.json
-tsconfig.app.json
-tsconfig.json
-tsconfig.node.json
-vite.config.ts
