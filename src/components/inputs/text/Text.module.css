@@ -1,0 +1,12 @@
+:where(.label) {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    border: 1px solid gray;
+}
+
+.label {
+    border: 1px solid red;
+}
+
+:where(.input) {}
