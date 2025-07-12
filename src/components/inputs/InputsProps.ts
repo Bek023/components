@@ -1,6 +1,7 @@
 import type { ChangeEvent, HTMLInputTypeAttribute, CSSProperties } from 'react';
 
 export type InputsProps = {
+    props?: object;
     label?: string;
     type?: HTMLInputTypeAttribute | string;
     name?: string;
@@ -23,4 +24,5 @@ export type InputsProps = {
     max?: number | string;
     step?: number;
     style?: CSSProperties;
+    initialValue?: string | number;
 };

@@ -1,6 +1,6 @@
 //import components
 
-import Inputs from "./inputs/text/text";
+import Inputs from "./inputs/Inputs";
 
 
 
