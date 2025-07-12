@@ -1,13 +1,15 @@
 
 
+import './App.css'
+import { Inputs } from './components/components';
+
 function App() {
 
-
   return (
-    <>
-     <h1>components</h1>
-    </>
+    <Inputs label='test' />
+
+
   )
 }
 
-export default App
+export default App;
