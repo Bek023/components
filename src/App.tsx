@@ -2,13 +2,11 @@
 import { Icons } from "./components/components";
 import logo from "./logo.png";
 function App() {
-  const props = {
-    type: "x80",
-  };
   return (
     <div>
-      <Icons {...props}>
+      <Icons type="x80" texttype="left">
         <img src={logo} alt="" />
+        <p>text</p>
       </Icons>
     </div>
   );

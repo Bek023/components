@@ -54,3 +54,36 @@
     height: 80px;
     border-radius: 18px;
 }
+
+.wrappe {
+    width: max-content;
+    display: flex;
+    gap: 6px;
+    flex-wrap: nowrap;
+}
+
+.horizontal {
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.top {
+    align-items: center;
+
+    flex-direction: column-reverse;
+}
+
+.bottom {
+    flex-direction: column;
+}
+
+.left {
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.right {
+    align-items: center;
+    flex-direction: row;
+}
