@@ -1,0 +1,100 @@
+:where(.Btn) {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+:where(.Buttonparent) {
+    display: flex;
+    align-items: center;
+}
+
+:where(.BtnContent) {
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+:where(.Btn:hover) {
+    cursor: pointer;
+}
+
+:where(.primarybtn) {
+    border-radius: 10px;
+    color: rgba(44, 44, 161, 0.895);
+    border: 1px solid rgba(44, 44, 161, 0.895);
+}
+
+:where(.primarybtn:hover) {
+    color: snow;
+    background-color: rgba(44, 44, 161, 0.895);
+}
+
+:where(.warningbtn) {
+    border-radius: 10px;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+:where(.warningbtn:hover) {
+    color: black;
+    background-color: #ffc107;
+}
+
+:where(.secondarybtn) {
+    border-radius: 10px;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+:where(.secondarybtn:hover) {
+    color: white;
+    background-color: #6c757d;
+}
+
+:where(.successbtn) {
+    border-radius: 10px;
+    color: #198754;
+    border: 1px solid #198754;
+}
+
+:where(.successbtn:hover) {
+    color: white;
+    background-color: #198754;
+}
+
+:where(.dangerbtn) {
+    border-radius: 10px;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+:where(.dangerbtn:hover) {
+    color: white;
+    background-color: #dc3545;
+}
+
+:where(.infobtn) {
+    border-radius: 10px;
+    color: #0dcaf0;
+    border: 1px solid #0dcaf0;
+}
+
+:where(.infobtn:hover) {
+    color: white;
+    background-color: #0dcaf0;
+}
+
+:where(.lightbtn) {
+    border-radius: 10px;
+    color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+:where(.lightbtn:hover) {
+    color: black;
+    background-color: #f8f9fa;
+}

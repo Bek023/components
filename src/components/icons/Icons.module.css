@@ -55,35 +55,35 @@
     border-radius: 18px;
 }
 
-.wrappe {
+:where(.wrappe) {
     width: max-content;
     display: flex;
     gap: 6px;
     flex-wrap: nowrap;
 }
 
-.horizontal {
+:where(.horizontal) {
     flex-direction: row;
     align-items: center;
 
 }
 
-.top {
+:where(.top) {
     align-items: center;
 
     flex-direction: column-reverse;
 }
 
-.bottom {
+:where(.bottom) {
     flex-direction: column;
 }
 
-.left {
+:where(.left) {
     align-items: center;
     flex-direction: row-reverse;
 }
 
-.right {
+:where(.right) {
     align-items: center;
     flex-direction: row;
 }
