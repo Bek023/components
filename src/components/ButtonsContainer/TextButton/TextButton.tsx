@@ -22,7 +22,7 @@ const Buttons: React.FC<ButtonProps> = (props) => {
     const variantClass = variant ? s[variant] : "";
     const className = `${variantClass} ${buttonclass} ${s.Btn}`.trim();
 
-    
+
     function ButtonSize() {
         if (width || height || padding || borderRadius || Object.keys(style).length > 0) {
             // Если вручную передали стили, используем их
@@ -48,7 +48,7 @@ const Buttons: React.FC<ButtonProps> = (props) => {
             };
         } else {
             return {
-                width: "125px",
+                width: "auto",
                 height: "40px",
             };
         }

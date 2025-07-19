@@ -2,8 +2,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 /* .mybtn {
     background-color: orange;
 } */
+.verticalgroup {
+    margin-top: 20px;
+    align-items: start;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 16px;
+}
+
+.paerntapp {
+    width: max-content;
+}

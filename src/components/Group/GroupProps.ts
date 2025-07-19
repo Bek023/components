@@ -3,4 +3,5 @@ export type GroupProps = {
   children?: React.ReactNode | string;
   horizontalgroupclass?: string;
   verticalgroupclass?: string;
+  gap?: string;
 };

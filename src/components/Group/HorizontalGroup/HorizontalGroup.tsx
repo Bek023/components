@@ -5,12 +5,16 @@ const HorizontalGroup: React.FC<GroupProps> = (props) => {
     const {
         children,
         horizontalgroupclass, // Assuming groupclass is used for
+        gap,
     } = props;
     const groupclassName = horizontalgroupclass ? s[horizontalgroupclass] : "";
     const childrenArray = React.Children.toArray(children);
     return (
-        <div className={groupclassName ? `${groupclassName}${s.GroupParent}` : s.GroupParent}>
-            {childrenArray}
+        <div className={s.GGParent}>
+            <div className={groupclassName ? `${groupclassName}${s.GroupParent}` : s.GroupParent} style={{ gap }}>
+
+                {childrenArray}
+            </div>
         </div>
     );
 }
